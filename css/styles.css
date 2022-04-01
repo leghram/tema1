@@ -4,6 +4,59 @@
     box-sizing: border-box;
 }
 
-header{
+button{
+    display: block;
+    width: 200px;
+    height: 50px;
     background-color: aqua;
 }
+
+
+
+
+.superior{
+    position: absolute;
+}
+
+/* .inferior{
+    height: 70vh;
+} */
+
+video{
+   width: 100%;
+
+}
+.anchoNecesario{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion1{
+    background-color: #c73737;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fechaConciertos{
+    display: flex;
+    width: 60%;
+}
+
+.concierto{
+    background-color: aqua;
+    width: 25%;
+    height: 140px;
+}
+
+.comprarBoletos{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
