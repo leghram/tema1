@@ -105,11 +105,12 @@ nav li a:hover{
 
 .superior2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .info{
     margin: 20vh 0;
+    width: 80%;
 }
 
 h1{
@@ -123,6 +124,7 @@ h1{
     color: white;
     padding: 30px 0;
     font-size: 27px;
+    text-align: center;
 }
 
 .botones{
@@ -184,7 +186,8 @@ video{
     justify-content: space-evenly;
     align-items: center;
     height: 110px;
-    border: 1px solid white;
+    border-left:1px solid white;
+    border-right:1px solid white;
     color: white;
 }
 
@@ -265,7 +268,95 @@ video{
     border: 10px solid;
 }
 
+/* Cuarta Seccion */
+
+.seccion4{
+    display: flex;
+    width: 100%;
+}
+
+.sec42{
+    flex-direction: row-reverse;
+}
+
+.songAlbum{
+    width: 60%;
+}
+.contieneAlbum{
+    width: 90%;
+}
+
+.cajonAlbum2{
+    margin-left: auto;
+}
 
 
+.album{
+    width: 40%;
+    height: 600px;
+}
+
+.albumH2{
+    height: 180px;
+    text-align: center;
+}
+
+.albumH2 h2{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 80%;
+    font-size: 50px;
+    padding-top: 50px 0;
+}
+
+.albumGaleria{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 280px;
+}
+
+.albumEtiquetas{
+    height: 140px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.tag{
+    background-color: white;
+    padding: 10px;
+    margin: 1px 20px;
+    border: 1px solid #c73737;
+}
+
+.tag:hover{
+    background-color: #c73737;
+    color: white;
+}
+
+.tagImagen{
+    width: 25%;
+    height: 200px;
+    margin-left: 20px;
+    border: 3px solid rgba(105, 103, 105, 0.2);
+}
+
+.tagImagen:hover{
+    border: 6px solid rgba(105, 103, 105, 0.2);
+}
 
 
+.abajo{
+    width: 100%;
+    height: 200px;
+    background-color: #c73737;
+}
+
+.abajo h2{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
